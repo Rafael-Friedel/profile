@@ -3,6 +3,7 @@
   --cor-secundaria: #e74c3c;
   --cor-background: #f9f9f9;
   --cor-texto: #333333;
+  --cor-texto-secundaria: #fff;
 }
 
 body {
@@ -49,17 +50,17 @@ p {
 
 .footer {
   background-color: var(--cor-primaria);
-  color: #fff;
+  color: var(--cor-texto-secundaria);
   padding: 24px 0 48px 0;
   text-align: center;
 }
 
 .footer p {
-  color: #fff;
+  color: var(--cor-texto-secundaria);
 }
 
 .footer a {
-  color: #fff;
+  color: var(--cor-texto-secundaria);
   margin: 0 5px;
   text-decoration: none;
 }
@@ -70,6 +71,6 @@ p {
 }
 
 .footer a[href^="http"] {
-  color: #fff;
+  color: var(--cor-texto-secundaria);
   text-decoration: underline;
 }
