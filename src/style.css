@@ -26,6 +26,10 @@ h2 {
   margin: 0;
 }
 
+h2:hover {
+  cursor: pointer;
+}
+
 .body {
   padding: 80px;
   border: 1px solid var(--cor-background);
@@ -72,5 +76,18 @@ p {
 
 .footer a[href^="http"] {
   color: var(--cor-texto-secundaria);
-  text-decoration: underline;
+  text-decoration: underline; 
+}
+
+.footer a[href^="mailto"]:hover {
+  color: red;
+}
+
+.footer a[href^="http"]:hover, span a:hover {
+  color: blue;
+}
+
+#textoContratacao {
+  display: none;
+  color: var(--cor-texto-secundaria);
 }
