@@ -1,9 +1,15 @@
 function exibirTexto() {
-  var texto = document.getElementById("textoContratacao");
-  texto.style.display = "block";
+  let texto = document.getElementById('textoContratacao');
+  texto.innerHTML = 'Me contrata aí, parca!';
+  texto.style.display = 'block';
 }
 
-function ocultarTexto() {
-  var texto = document.getElementById("textoContratacao");
-  texto.style.display = "none";
+function chamarUsuario() {
+  let texto = document.getElementById('textoContratacao');
+  texto.innerHTML = 'Volta aqui, precisa ler isso.';
+}
+
+function ocultarTextoTitle() {
+  let texto = document.getElementById('textoContratacao');
+  texto.style.display = 'none';
 }
