@@ -31,7 +31,7 @@ h2:hover {
 }
 
 .body {
-  padding: 80px;
+  padding: 32px 76px;
   border: 1px solid var(--cor-background);
   border-radius: 12px;
 
