@@ -91,3 +91,20 @@ p {
   display: none;
   color: var(--cor-texto-secundaria);
 }
+
+@media (max-width: 1366px) {
+  .body {
+    padding: 10px 20px;
+  }
+
+  .title {
+    text-align: center;
+  }
+  .header {
+    padding: 20px;
+  }
+
+  .footer {
+    padding: 8px;
+  }
+}
